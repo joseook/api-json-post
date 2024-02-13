@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posts</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- JS FILE -->
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="post" class="hidden">
+        <div class="post-header">
+          <button>
+            <a href="../index.html">Voltar</a>
+          </button>
+        </div>
+        <div id="post-container"></div>
+        <div class="comments-title">
+          <h2>Comentários:</h2>
+        </div>
+        <div id="comments-container"></div>
+        <form action="#" id="comment-form">
+          <div class="input-box">
+            <label for="email"> Seu e-mail:</label>
+            <input type="email" id="emailInput" name="email" required />
+          </div>
+          <div class="input-box">
+            <label for="nome"> Seu nome:</label>
+            <input type="text" id="nameInput" name="nome" required />
+          </div>
+          <footer id="footer-form">
+            <label for="body">Seu comentário:</label>
+            <textarea
+              name="body"
+              id="bodyInput"
+              placeholder="Digite o seu comentário aqui"
+              required
+            ></textarea>
+          </footer>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+  </body>
+</html>
