@@ -30,7 +30,7 @@ The project consists of two pages:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/joseook/repository-name.git
+git clone https://github.com/joseook/api-json-post.git
 ```
 
 2. Open the `index.html` file in your browser to view the list of blog posts.
@@ -41,7 +41,6 @@ git clone https://github.com/joseook/repository-name.git
 
 ## Author
 
-This project was developed by [Your Name](https://github.com/your-username).
+This project was developed by [joseook](https://github.com/joseook).
 
 ---
-Feel free to customize this `README.md` according to the specifics of your project. Add additional sections, installation instructions, configuration, or any other information you deem relevant to users of your project.
